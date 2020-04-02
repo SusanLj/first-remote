@@ -29,8 +29,10 @@ public class WebUtils {
 	
 	/**
 	 * 得到当前线程的响应对象
+	 * @return 
+	 * @return 
 	 */
-	public static HttpServletR esponse getHttpServletResponse() {
+	public static HttpServletResponse getHttpServletResponse() {
 		return getServletRequestAttributes().getResponse();
 	}
 	
